@@ -3,13 +3,32 @@
 <head>
 	<title>Student Entry</title>
 	<link rel="stylesheet" type="text/css" href="/css/student_entry.css">
+	<link rel="icon" href="/images/icon.png">
 </head>
 <body>
-	<form action="/" method="post">
-		<input type="text" name="name">
-		<input type="date" name="dob">
-		<input type="text" name="city">
-		<button type="submit">Submit</button>
-	</form>
+	<div id="canvas">
+		<div id="body">
+		<img src="/images/logo.png">
+		<div id="container">
+			<form action="/" method="post">
+				<label>Student Name :</label>
+				<input type="text" name="name" autofocus placeholder="Enter your name here"><br>
+				<label>Date of Birth :</label>
+				<input type="date" name="dob"><br>
+				<label>City Name :</label>
+				<input type="text" name="city"  placeholder="Enter your city name"><br>
+				<button class="new-service" type="submit">Submit</button>
+			</form>		
+				<a href="/view"><button class="new-service">View</button></a>
+				<a href="/update"><button class="new-service">Update</button></a>
+				<a href="/delete"><button class="new-service">Delete</button></a>
+				<a href="/home"><button class="new-service" id="home">Go To Homepage</button></a>
+			
+		</div>
+		</div>
+	</div>
 </body>
 </html>
+<footer>
+	© All Rights reserved with CoderMa 2020
+</footer>

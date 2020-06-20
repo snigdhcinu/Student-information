@@ -35,6 +35,18 @@ app.post('/',function(req,res){
 
 app.get('/add_success',(req,res)=>{
 	res.send(`Name added successfully`);
+});
+app.get('/view',(req,res)=>{
+	res.sendFile(__dirname+'/view_student.html');
+});
+app.get('/update',(req,res)=>{
+	res.send('this is the update page')
+});
+app.get('/delete',(req,res)=>{
+	res.send('this is the delete page')
+});
+app.get('/home',(req,res)=>{
+	res.send('this is the home page')
 })
 
 app.listen(5000, ()=>{

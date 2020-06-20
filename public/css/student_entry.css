@@ -1,0 +1,81 @@
+body{
+	background-color: #ddf3f5;
+}
+#canvas{
+	background-color: #ddf3f5;
+	width: 100vw;
+	height: 100vh;
+}
+#body{
+	position: relative;
+	left: 35vw;
+	top: 10vh;
+	width: 40vw;
+	height: 81vh;
+}
+img{
+	width: 10vw;
+	height: 20vh;
+	position: relative;
+	left: 30%;
+}
+#container{
+	background-color: #e0dede;
+	width: 35vw;
+	height: 60vh;
+}
+label{
+	font-family: cursive;
+	font-size: 1.1em;
+}
+form{
+	padding-left: 2em;
+}
+form input{
+	font-size: 1.1em;
+	background-color: #f7f5dd;
+	font-family: cursive;
+	border-radius: 20px;
+	padding-left: 20px;
+	margin-top: 1.5em;
+	outline: none;
+	width: 18vw;
+
+}
+form button{
+	margin-bottom: 30px;
+	font-size: 1.3em;
+	text-align: center;
+	outline: none;
+	position: relative;
+	left: 25%;
+}
+.new-service{
+	outline: none;
+	background-color: #fbfd8a;
+	font-size: 1.1em;
+	font-family: cursive;
+	position: relative;
+	top: 10vh;
+	border-radius: 20px;
+	width: 5em;
+	margin-left:  10%;	
+}
+.new-service:hover{
+	background-color: #f37121;
+}
+#home{
+	margin-top: 2em;
+	background-color: #fb7813;
+	width: 80%;
+	margin-left: 2vw;
+	outline: none;
+}
+#home:hover{
+	background-color: #d92027;
+}
+footer{
+	color: #aacdbe;
+	font-weight: 100;
+	text-align: center;
+}
